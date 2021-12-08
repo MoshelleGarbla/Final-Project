@@ -1,0 +1,15 @@
+body{
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+}
+
+footer{
+   position: absolute;
+   text-align: center;
+   padding: 0px;
+   bottom: 0px;
+   width: 100%;
+   height: 30px;
+   
+}
