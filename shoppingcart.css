@@ -1,0 +1,16 @@
+h1{
+   color: blue;
+   position: relative;
+   top: 10px;
+}
+body{
+  background-color: #d3d3d3;  
+}
+
+.btn-outline-dark{
+   cursor: pointer;
+   position: relative;
+   left: 77%;
+   bottom: 220%;
+   margin: 5px;
+}
