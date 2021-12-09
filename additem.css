@@ -1,0 +1,10 @@
+body{
+    padding: 50px 40px 40px 100px ;
+    justify-content: center;
+    background-image: url('images/addItems_background.jpg');
+    color: seashell;
+}
+.mb-4{
+    justify-content: center;
+    padding-top: 25px;
+}
