@@ -7,12 +7,17 @@ let selectRows = document.querySelector('.table').getElementsByTagName('tr');
 let rowCount = selectRows.length;
 console.log(rowCount);
 
-//when clicking the button, delete all row
+// //when clicking the button, delete all row
 
 // removeButton.onclick = () =>{
 //     for (let i=0; i < rowCount-1; i++){
 //         table.deleteRow(1);
 //     }
-//     
+    
 // }
+
+//when click anywhere on the table, it delete the second row
+table.onclick = () =>{
+    table.deleteRow(1);
+}
 
