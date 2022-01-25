@@ -1,10 +1,16 @@
+*{
+    font-size: 18px;
+    font-family: Garamond,Baskerville,Caslon,serif;
+}
+
 body {
     min-height: 100vh;
     position: relative;
     margin: 0;
     padding-bottom: 100px; 
     box-sizing: border-box;
-    background-color: blue;
+    background-color: #F0F8FF;
+    
   }
   
   footer {
@@ -36,11 +42,44 @@ body {
     left: 90px
 }
 
-.carousel-inner{
-    width: 100%;
-    max-height: 550px !important;
-    position: relative;
-    left: 300px;
-    top: 20px;
+
+footer{
+    margin-bottom: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+
 }
 
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.carousel-inner{
+    background: linear-gradient(to left, #72A0C1, #B9D9EB);
+    position: relative;
+    height: 500px;
+    
+   
+}
+
+.d-block{
+    position: relative;
+    width: 10px;
+    margin-left: 280px;
+    
+   
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 430px;
+}
+
+@media screen and (max-width: 1400px){
+    
+    
+
+}
