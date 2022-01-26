@@ -79,7 +79,10 @@ footer a{
 }
 
 @media screen and (max-width: 1400px){
-    
+    .d-block{
+       position: relative;
+       left: -130px;
+    }
     
 
 }
