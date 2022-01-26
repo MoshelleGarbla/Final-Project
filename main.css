@@ -9,15 +9,16 @@ body {
     margin: 0;
     padding-bottom: 100px; 
     box-sizing: border-box;
-    background-color: #F0F8FF;
-    
+    x-overflow: hidden;
+
   }
   
-  footer {
+  #footer{
+    width: 100%;
     position: absolute;
-    bottom: 0;
-    height: 100px;
-  }
+    bottom: 50px;
+    top: 1050px;
+}
 
 .bi-cart{
     position: relative;

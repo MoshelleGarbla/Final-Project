@@ -1,0 +1,47 @@
+*{
+    font-size: 18px;
+    font-family: Garamond,Baskerville,Caslon,serif;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 100px; 
+    box-sizing: border-box;
+    x-overflow: hidden;
+  }
+
+.bi-cart{
+    position: relative;
+    left: 59%;
+}
+.bi-person{
+    position: relative;
+    left: 62%;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.my-2{
+  position: relative;
+  left: 660px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.py-3{
+    position: relative;
+    font-size: 50px;
+    left: 155px;
+}
+
+#footer{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    top: 1050px;
+}
