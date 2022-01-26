@@ -1,0 +1,89 @@
+*{
+    font-size: 18px;
+    font-family: Garamond,Baskerville,Caslon,serif;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 100px; 
+    box-sizing: border-box;
+    x-overflow: hidden;
+
+  }
+  
+  #footer{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    top: 1050px;
+}
+
+.bi-cart{
+    position: relative;
+    left: 60%;
+}
+.bi-person{
+    position: relative;
+    left: 63%;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.d-block{
+    position: relative;
+    width: 50%;
+    left: 90px
+}
+
+
+footer{
+    margin-bottom: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+
+}
+
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.carousel-inner{
+    background: linear-gradient(to left, #72A0C1, #B9D9EB);
+    position: relative;
+    height: 500px;
+    
+   
+}
+
+.d-block{
+    position: relative;
+    width: 10px;
+    margin-left: 280px;
+    
+   
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 430px;
+}
+
+@media screen and (max-width: 1400px){
+    .d-block{
+       position: relative;
+       left: -130px;
+    }
+    
+
+}

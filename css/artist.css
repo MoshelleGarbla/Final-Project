@@ -9,3 +9,27 @@ a{
     top: 30%
   
 }
+
+.nav-link{
+    margin: 3px;
+    position: relative;
+    left: 0px;
+    top: 0%;
+    bottom: 0px;
+
+}
+.navbar{
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    width: 50%;
+}
+
+.bi-cart{
+    position: relative;
+    left: 125%;
+}
+.bi-person{
+    position: relative;
+    left: 130%;
+}
