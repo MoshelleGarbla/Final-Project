@@ -22,11 +22,11 @@ body {
 
 .bi-cart{
     position: relative;
-    left: 60%;
+    left: 1350%;
 }
 .bi-person{
     position: relative;
-    left: 63%;
+    left: 1403%;
 }
 
 .container-fluid {
@@ -62,6 +62,7 @@ footer a{
     background: linear-gradient(to left, #72A0C1, #B9D9EB);
     position: relative;
     height: 500px;
+    bottom: 50px
     
    
 }
@@ -69,7 +70,7 @@ footer a{
 .d-block{
     position: relative;
     width: 10px;
-    margin-left: 280px;
+    margin-left: 335px;
     
    
 }
@@ -79,11 +80,31 @@ footer a{
     top: 430px;
 }
 
+.carousel-inner{
+position: relative;
+left: -100px;
+width: 120%;
+}
+
+.navbar-toggler-icon{
+    position: relative;
+}
 @media screen and (max-width: 1400px){
     .d-block{
        position: relative;
-       left: -130px;
+       left: -185px;
+    }
+    .carousel-inner{
+        position: relative;
+        left: -100px;
+        width: 150%;
     }
     
-
+    .navbar-toggler-icon{
+        position: relative;
+        left: 200px;
+    }
+}
+@media screen and (min-width:1000px){
+    
 }
