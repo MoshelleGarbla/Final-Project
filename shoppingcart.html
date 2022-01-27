@@ -93,7 +93,7 @@
         <tbody>
 
         <!--First row-->
-          <tr>
+          <tr class = "table-row">
             <th scope="row">               
              <img src="./images/doja.jpeg" alt="Doja" width= "250px" class="img-thumbnail">
                 Doja Cat Album
@@ -102,13 +102,13 @@
             <td>$39.95<br></td>
             <td>2</td>
             <td>79.90</td>
-            <td><i class="bi-dash-circle" style="font-size: 2rem; color: black;"></i>
+            <td><i class="bi-dash-circle" style="font-size: 2rem; color: black;" onclick="deleteRow(this)"></i>
 
             </td>
           </tr>
 
         <!--Second row-->
-          <tr>
+          <tr class = "table-row">
             <th scope="row">
                 <img src="./images/drake.jpeg" alt="Drake" width= "250px" class="img-thumbnail">
                 Drake Album 
@@ -118,13 +118,13 @@
            <td>$39.95<br></td>
             <td>2</td>
             <td>79.90</td>
-            <td><i class="bi-dash-circle" style="font-size: 2rem; color: black;"></i>
+            <td><i class="bi-dash-circle" style="font-size: 2rem; color: black;" onclick="deleteRow(this)"></i>
 
             </td>
           </tr>
 
         <!--Third Row-->
-        <tr>
+        <tr >
             <th scope="row">
                 <img src="./images/bts.jpeg" alt="bts" width= "250px" class="img-thumbnail">
                 BTS Album
@@ -134,7 +134,7 @@
            <td>$39.95<br></td>
             <td>2</td>
             <td>79.90</td>
-            <td><i class="bi-dash-circle" style="font-size: 2rem; color: black;"></i>
+            <td><i class="bi-dash-circle" style="font-size: 2rem; color: black;" onclick="deleteRow(this)"></i>
 
             </td>
           </tr>
@@ -168,5 +168,9 @@
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="./js/shoppingcart.js"></script>
+    <script src="./js/itemController.js"></script>
+    <script src="./js/index.js"></script>
+
+
 </body>
 </html>
